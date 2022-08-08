@@ -1,0 +1,180 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Cinzel&display=swap');
+
+/*Abaixo serve para definir o scroll menu mais "suave"*/
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+body{
+    background-color: bisque;
+}
+header{
+    background-color: black;
+    margin: -8px;
+
+}
+
+.home>img{
+    width: 26px;
+    padding-left: 15px;
+    padding-top: 20px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.projets{
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+header .menu{
+    display: flex;
+    flex-direction: row;
+}
+
+header .menu a{
+    padding-left: 15px;
+}
+
+main div h1{
+    font-family: 'Cinzel', serif;
+}
+main .me img{
+    border-radius: 100%;
+    display: flex;
+    margin: auto;
+    padding: 25px;
+    
+}
+
+.me{
+    margin-top: 50px;
+    background-color: black;
+    background-image: url(imagens/background-me.jpg);
+    background-size: cover;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.history{
+    background-color: aquamarine;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.history:hover{
+    margin: 10px;
+    transition: 1s;
+}
+.history>h1{
+    text-align: center;
+    padding-bottom: 0px;
+}
+.history>p{
+    text-align: justify;
+    
+}
+
+.conhecimentos{
+    background-color: aqua;
+    margin: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    padding: 40px;
+    text-align: justify;
+}
+
+.conhecimentos>h1{
+    text-align: center;
+    
+}
+
+.conhecimentos > li{
+    padding-top: 30px;
+}
+
+.conhecimentos:hover{
+    margin: 10px;
+    transition: 1s;
+}
+
+div .facebook>img{
+    width: 35px;
+}
+
+div .linkedin>img{
+    width: 35px;
+}
+
+div .whatsapp>img{
+    width: 35px;
+}
+
+div .instagram>img{
+    width: 35px;
+}
+
+.contacts a img{
+    padding-left: 50px;
+}
+
+.facebook>img{
+    margin-left: -50px;
+    padding-left: 0px;
+}
+
+
+.contacts{
+    background-color: rgb(208, 70, 243);
+    padding-top: 10px;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center;
+    justify-items: center;
+}
+
+.contacts>h1{
+    font-size: 2em;
+}
+
+div p{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+div .or::before,div .or::after{
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 40%;
+    background-color: black;
+    right: 40px;
+}
+
+div .or::after{
+    left: 40px;
+}
+
+
+
+
+
+
+
+
+footer{
+    margin-top: 100%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-size: 0.5em;
+}
