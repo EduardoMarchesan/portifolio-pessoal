@@ -110,16 +110,36 @@ div .facebook>img{
     width: 35px;
 }
 
+.facebook>img:hover{
+    transform: rotateX(3600deg);
+    transition: 2s;
+}
+
 div .linkedin>img{
     width: 35px;
+}
+
+.linkedin>img:hover{
+    transform: rotateX(3600deg);
+    transition: 2s;
 }
 
 div .whatsapp>img{
     width: 35px;
 }
 
+.whatsapp>img:hover{
+    transform: rotateX(3600deg);
+    transition: 2s;
+}
+
 div .instagram>img{
     width: 35px;
+}
+
+.instagram>img:hover{
+    transform: rotateX(3600deg);
+    transition: 2s;
 }
 
 .contacts a img{
@@ -130,6 +150,7 @@ div .instagram>img{
     margin-left: -50px;
     padding-left: 0px;
 }
+
 
 
 .contacts{
